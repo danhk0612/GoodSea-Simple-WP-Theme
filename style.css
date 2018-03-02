@@ -1,0 +1,37 @@
+/*
+  Theme Name: GoodSea Simple
+  Author: HAEKWANG DAN
+  Version: 0.1
+*/
+aside .searchform {
+  max-width: 300px;
+  margin: 0 auto;
+}
+aside .searchform label {
+  display: none;
+}
+#searchsubmit {
+  position: relative;
+  float: right;
+  top: -60px;
+}
+aside > div > ul {
+  margin: 15px;
+}
+
+.post_title > ul > li {
+  margin: 0 auto;
+  display: inline-block;
+}
+.post_title > ul > li:before {
+  content:"|";
+  margin: 0 1rem;
+}
+#post_body {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.post-bottom > ul > li:before {
+  content:"|";
+  margin: 0 1rem;
+}
